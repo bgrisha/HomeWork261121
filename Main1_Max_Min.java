@@ -18,7 +18,11 @@ public class Main1 {
 		System.out.println(avg(array));
 // alternative methods		
 	double[] tab = { 62.5, 30, 98, 1, 55.5, 80, 75, 40, 56, 99, 86, 85.5, 55, 90 };
-		System.out.println(Arrays.stream(tab).max().getAsDouble());	
+		System.out.println(Arrays.stream(tab).max().getAsDouble());
+//second alternative
+		Arrays.sort(array);
+System.out.println("Minimum = " + array[0]);
+System.out.println("Maximum = " + array[array.length-1]);
 
 	}
 
