@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 //2.	Create in Main Array of Grades: 
 // {62.5, 30, 98, 100, 55.5, 80, 75, 40 , 56, 99, 86, 85.5, 55, 90}
-//greatestGrade – that get the Array as parameter and return the higher grade.
+//greatestGrade â€“ that get the Array as parameter and return the higher grade.
 //another Function - that get the Array as parameter and return the average grade of array.
 public class Main1 {
 
@@ -16,7 +16,9 @@ public class Main1 {
 		System.out.println(greatestGrade(array));
 // return avg
 		System.out.println(avg(array));
-		
+// alternative methods		
+	double[] tab = { 62.5, 30, 98, 1, 55.5, 80, 75, 40, 56, 99, 86, 85.5, 55, 90 };
+		System.out.println(Arrays.stream(tab).max().getAsDouble());	
 
 	}
 
